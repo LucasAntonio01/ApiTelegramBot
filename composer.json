@@ -1,0 +1,17 @@
+{
+    "name": "vendor/orionapibot",
+    "description": "Projeto para enviar mensagens atr\u0000veis de uma api para o telegram",
+    "license": "mti",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Orionapibot\\": "src/",
+            "app\\": "app/"
+        },
+        "files": [
+            "config/config.php"
+        ]
+    },
+    "require": {
+        "telegram-bot/api": "^2.3"
+    }
+}
